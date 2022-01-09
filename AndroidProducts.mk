@@ -1,0 +1,3 @@
+PRODUCT_MAKEFILES := \
+$(LOCAL_DIR)/a013f.mk \
+$(LOCAL_DIR)/omni_a013f.mk

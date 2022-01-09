@@ -1,0 +1,8 @@
+/super ext4 /dev/block/platform/bootdevice/by-name/super
+/data ext4 /dev/block/platform/bootdevice/by-name/userdata
+/cache ext4 /dev/block/platform/bootdevice/by-name/cache
+/boot emmc /dev/block/platform/bootdevice/by-name/boot
+/recovery emmc /dev/block/platform/bootdevice/by-name/recovery
+/external_sd vfat /dev/block/mmcblk1p1 flags=display="External_sd";storage;wipeingui;removable
+/internal_sd vfat /dev/block/platform/bootdevice/by-name/usbmsc flags=display="Internal_sd";storage;wipeingui;removable
+/usb-otg vfat /dev/block/sda1 /dev/block/sda flags=display="USB OTG";storage;wipeingui;removable
